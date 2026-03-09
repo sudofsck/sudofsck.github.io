@@ -1,5 +1,5 @@
 const musica = document.getElementById('musicaFondo');
-musica.volume = 0.6;
+musica.volume = 0;
 let musicaSonando = false;
 
 
