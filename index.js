@@ -6,7 +6,7 @@ let musicaSonando = false;
 function activarMusica() {
    if (!musicaSonando) {
       
-       musica.currentTime = 0;
+       musica.currentTime = 0.1;
       
        musica.play().then(() => {
            musicaSonando = true;
