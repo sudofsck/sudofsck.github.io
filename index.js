@@ -1,12 +1,12 @@
 const musica = document.getElementById('musicaFondo');
-musica.volume = 0;
+musica.volume = 0.6;
 let musicaSonando = false;
 
 
 function activarMusica() {
    if (!musicaSonando) {
       
-       musica.currentTime = 1;
+       musica.currentTime = 0;
       
        musica.play().then(() => {
            musicaSonando = true;
